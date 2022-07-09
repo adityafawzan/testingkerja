@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 09, 2022 at 04:02 PM
+-- Generation Time: Jul 09, 2022 at 04:23 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -56,18 +56,15 @@ CREATE TABLE `users` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `nama` varchar(50) NOT NULL,
   `username` varchar(30) DEFAULT NULL,
-  `password` varchar(100) DEFAULT NULL,
-  `last_login` datetime NOT NULL,
-  `last_logout` datetime NOT NULL
+  `password` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `nama`, `username`, `password`, `last_login`, `last_logout`) VALUES
-(1, 'Admin', 'admin', 'adcd7048512e64b48da55b027577886ee5a36350', '2022-02-25 15:09:55', '2022-02-25 14:08:58'),
-(2, 'Kerani', 'kerani.pm', 'adcd7048512e64b48da55b027577886ee5a36350', '2022-02-25 11:51:37', '2022-02-15 18:25:49');
+INSERT INTO `users` (`id`, `nama`, `username`, `password`) VALUES
+(1, 'Admin', 'admin', 'adcd7048512e64b48da55b027577886ee5a36350');
 
 --
 -- Indexes for dumped tables
