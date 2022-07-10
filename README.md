@@ -1,5 +1,5 @@
 # backend
 
 How To Run
-Install NPM : npm Install
+Install NPM : npm install,
 Run Project : npm start
