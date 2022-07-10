@@ -1,7 +1,7 @@
 {
   "name": "nodejs-rest-api-mysql",
   "version": "1.0.0",
-  "description": "Belajar membuat RestAPI CRUD MySQL",
+  "description": "Test Case",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
